@@ -1,7 +1,7 @@
 var oneAndTen = Math.floor(Math.random() * 10) + 1;
 
-document.getElementsByClassName("guess").onClick = function() {
- var userGuess = document.getElementsById("input").value;
+function guess() {
+ var userGuess = document.getElementById("input").value;
 
  if (userGuess == oneAndTen)
  {
@@ -10,5 +10,4 @@ document.getElementsByClassName("guess").onClick = function() {
  else {
     alert("Not matched");
  }
- return Math.floor(Math.random() * (max - min)) + min;
 }

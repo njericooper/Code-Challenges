@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="guessingGame.css">
     <title>Guessing Game</title>
 </head>
 <body>
@@ -13,8 +14,8 @@
     <div class="guess-form">
         <form>
             <label for="input">Lucky pick:</label>
-            <input type="text" class="guess">
-            <input type="submit" value="GUESS" class="submit">
+            <input type="text" class="input" id="input">
+            <input type="button" id="button" class="submit" onclick="guess()" value="GUESS" >
         </form>
     </div>
 </body>
