@@ -5,9 +5,10 @@ document.getElementsByClassName("guess").onClick = function() {
 
  if (userGuess == oneAndTen)
  {
-     console.log("Lit. You guessed it. Congrats, Fam.");
+     alert("Lit. You guessed it. Congrats, Fam.");
  }
  else {
-    console.log("Not matched");
+    alert("Not matched");
  }
+ return Math.floor(Math.random() * (max - min)) + min;
 }
