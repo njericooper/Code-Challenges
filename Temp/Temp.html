@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Degrees in F and C</title>
+</head>
+<body>
+    <div class="temp-container">
+        <label for="fahrenheit">Fahrenheit</label>
+        <input type="number" name="value" id="fahrenheit" oninput="convertF(this.id, this.value)" onchange="convertF(this.id, this.value)">
+       <label for="celsius">Celsius</label>
+       <input type="number" name="value" placeholder="" id="celsius" oninput="convertC(this.id, this.value)" onchange="convertC(this.id, this.value)">
+    </div>
+</body>
+<link rel="stylesheet" href="Temp.js">
+</html>
