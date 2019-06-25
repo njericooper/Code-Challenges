@@ -9,25 +9,23 @@
 <body>
     <p>Product: Code Challenge: Make a form with input that places the data in a table. Caveat: Data must be stored *CLIENT* side. 
     </p>
+        <table id="table">
+            <thead>
+            <tr>
+              <td>Object 1</td>
+              <td>Object 2</td>
+              <td>Object 3</td>
+            </tr>
+          </thead>
+        </table>
+        
+        <input type="text" id="input"> 
+        <input type="text" id="input2"> 
+        <input type="text" id="input3"> 
 
-    <div class="table-container">
-        <div class="title">
-        <h1>Table</h1>     
-        </div>
-        <div class="table-div"> 
-            <table id="table" class="table">
-                <thead>
-                    <tr>
-                        <th>Object 1</th>
-                        <th>Object 2</th>
-                        <th>Object 3</th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-    </div>
-
-    <button id="button" class="button" onclick="tableUpdate()" > Add </button>
+    <button id="button" class="button" onclick="tableUpdate()"> Add </button>
+    <p id="output"></p>
 
 </body>
+<script src="DataTable.js" ></script>
 </html>
