@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: 700;
+    
+}
+
+.container{  
+    margin: 0;
+    height: 10vh;
+    padding: 5%;
+    background-color: #25739B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+}
+
+button{
+    background-color: #F4D437;
+    font-size: 1.5em;
+}
+
